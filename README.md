@@ -1,6 +1,5 @@
 # Portfolio333
 
-
 Portfolio do desenvolvedor
 
 
@@ -12,15 +11,13 @@ o controle das tarefas desse projeto será realizada no git hub
 ## Ícones
 
 
+- :bowtie: nova fucionalidade
 
-:bowtie: nova fucionalidade
+- :up: atualização
 
-:up: atualização
+- :flushed: correção de bug
 
-
-:flushed: correção de bug
-
-:checkered_flag: release
+- :checkered_flag: release
 
 
  
