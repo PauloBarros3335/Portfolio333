@@ -174,11 +174,13 @@ header {
     background-color: #fff;
     position: fixed;
     top: 0;
+    
     right: -20rem;
     transition: all 1s;
 }
 .show-menu .sidebar{
     right: 0;
+    
 }
 
 .menu {
@@ -186,6 +188,7 @@ header {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+   
 }
 
 .menu-item {
@@ -207,7 +210,7 @@ header {
 .social-media{
     
     position: absolute;
-    bottom: 3rem;
+    bottom: 5rem;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
