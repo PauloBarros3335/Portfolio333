@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +9,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest" />
-
     <title>Portfolio333</title>
 </head>
-
 <body>
     <div class="container ">
 
@@ -23,8 +20,7 @@
             <div class="line" id="line3"></div>
             <span>fechar</span>
         </div>
-
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="imagens/bg.jpg" alt="">
             </div>
@@ -32,18 +28,16 @@
                 <h1>Web Developer & Front End Designer</h1>
                 <p>Paulo Barros</p>
                 <button>Saiba Mais</button>
-
             </div>
         </header>
-
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
                     <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
                 </ul>
             </nav>
             <div class="social-media">
@@ -52,8 +46,7 @@
                 <a href="#"><i class="fab fa-square-twitter"></i></a>
             </div>
         </aside>
-
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>conhecimentos</h1>
             </div>
@@ -130,7 +123,6 @@
                 </div>
             </div>
         </section>
-
         <section>
         <div class="sessao-projetos" id="projetos">
             <div class="sessao-header">
@@ -172,12 +164,11 @@
               </div>
             
         </section>
-
-<section class="sessao-contato">
-    <div class="contato-wrapper">
-        <div class="contato-left"></div>   
-        <div class="contato-right">
-        <h1>contato</h1>
+        <section class="sessao-contato" id="contato">
+            <div class="contato-wrapper">
+            <div class="contato-left"></div>   
+            <div class="contato-right">
+            <h1>contato</h1>
         <form>
             <div class="input-group">
                 <input type="text" class="field" id="nome">
@@ -194,10 +185,8 @@
             <button type="submit" class=" btn btn-submit">Enviar</button>
         </form>
     </div>
-</section>
-
-
-<section class="sessao-orcamento" id="orcamento">
+    </section>
+    <section class="sessao-orcamento" id="orcamento">
     <div class="orcamento-wrapper">
       <h1>Faça um orçamento</h1>
       <form>
@@ -224,13 +213,24 @@
     </div>
   </section>
 
-
-
-
-
+  <footer>
+<div class="footer-content">
+    <p>
+      Copyright &copy:2022 ETECIA DS - Todos os direitos reservados
+    </p>
+    <div class="social-list">
+        <ul>
+            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        </ul>
+    </div>
+</div>
+  </footer>
+  <a href="#home" id="link-topo">
+    <i class="fas fa-arrow-up"></i>
+  </a>
     </div>
 </body>
-
 <script src="script.js"></script>
-
 </html>
