@@ -489,6 +489,24 @@ header {
     justify-content: center;
     align-items: center;
   }
+
+  .orcamento-wrapper{
+    width: 60%;
+    height: 80%;
+    background-color: #ffffff99;
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  .sessao-orcamento{
+    width: 100%;
+    height: 100vh;
+    background: url("./imagens//bg-orcamento.png");
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   .orcamento-wrapper{
     width: 60%;
@@ -593,7 +611,12 @@ header {
      font-size: 50%;
     }
   }
-  @media (maxiwdth: 320px ) {
+  @media (max-width: 600px  ) {
+    .conhecimento-header h3{
+      font-size: 10px;
+    }
+  }
+  @media (max-iwdth: 320px ) {
     .sessao-orcamento{
       display: flex;
       flex-direction: column;
@@ -603,11 +626,20 @@ header {
       display: flex;
       flex-direction: column;
       align-items: center;
-    } 
+    }  
   }
+  @media (max-width: 600px  ) {
+    .sessao-orcamento h1{
+      font-size:10px
 
-
-
+    }
+  }
+  @media (max-width: 600px  ) {
+    .sessao-orcamento input[type="number"]{
+      font-size: 10px;
+  
+    }
+  }
 
   
   
