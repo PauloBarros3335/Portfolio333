@@ -141,7 +141,6 @@ header {
 .banner button {
     font-family: var(--font-action);
     color: #fff;
-    /* font-size:1.2rem ;*/
     letter-spacing: .1rem;
     text-transform: uppercase;
     background-color: #7F00FF;
@@ -640,7 +639,23 @@ header {
   
     }
   }
+  @media (max-width: 600px  ) {
+    .projetos{
+          
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    } 
+      
+    .orcamento-wrapper {
+      width: 80%;
 
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+    }
+  }
   
   
 
