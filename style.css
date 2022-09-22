@@ -615,7 +615,7 @@ header {
       font-size: 10px;
     }
   }
-  @media (max-iwdth: 320px ) {
+  @media (max-width: 320px ) {
     .sessao-orcamento{
       display: flex;
       flex-direction: column;
@@ -640,25 +640,32 @@ header {
     }
   }
   @media (max-width: 600px  ) {
-    .projetos{
+     .projetos{
           
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
+       
     } 
       
     .orcamento-wrapper {
       width: 80%;
 
     }
-    .card {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  
-  
 
+  }
+  @media (max-width: 600px  ) {
+    .conhecimentos-img-wrapper img{
+      margin-bottom: -151px;
+    }
+     
+  }
+
+ @media (max-width: 600px  ) {
+    .card{
+     width: 100%;
+    }
+    
+  }
 
 
 
